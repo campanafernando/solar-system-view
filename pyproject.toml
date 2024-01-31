@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "astro-dash"
+version = "0.1.0"
+description = ""
+authors = ["Fernando Campana"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.30.0"
+skyfield = "^1.47"
+pydeck = "^0.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
